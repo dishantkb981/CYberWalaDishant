@@ -1,7 +1,7 @@
 const terminalOutput = document.getElementById('output');
 const inputField = document.getElementById('input');
 // for auto complete command
-const commands = ['about', 'contact', 'help', 'clear','time', 'resume'];
+const commands = ['about', 'contact', 'help', 'clear', 'time', 'resume'];
 let commandHistory = [];
 let historyIndex = -1;
 
@@ -16,10 +16,10 @@ function handleInput(event) {
 
             switch (userInput) {
                 case 'about':
-                    showOutput('<div class="about">Hey, I am <span class="command"><b>Dishant Vishwakarma</b></span>.  I am pursuing Cyber Security from Parul University... My keen interest are in <br> <span class="command"><b>1.Android Os Development</b></span> <br> <span class="command"><b>2.Malware Devlopment</b></span> <br> <span class="command"><b>3.CTF</b></span> <br>(I have currently won HavokSecurity Ctf hosted by GoogleStudentDeveloperClub YAAAAYYYY!!!!) </div>');
+                    showOutput('<div class="about">Hey, I am <span class="command"><b>Dishant Vishwakarma</b></span>.  I am pursuing Cyber Security from Parul University... My keen interest are in <br> <span class="command"><b>1.Android Os Development</b></span> <br> <span class="command"><b>2.Android Pentester</b></span> <br> <span class="command"><b>3.CTF(Core Of THM)</b></span> <br>(I have currently won HavokSecurity Ctf hosted by GoogleStudentDeveloperClub YAAAAYYYY!!!!) </div>');
                     break;
                 case 'contact':
-                    showOutput('Hit me up at: <hr><br> Linkedin: <a href="https://www.linkedin.com/in/dishant-kumar-vishwakarma-493529286/">[Link]</a> <br> Twitter: <a href="">[Link]</a> <br> Medium: <a href="">[Link]</a>');
+                    showOutput('Hit me up at: <hr><br> Linkedin: <a href="https://www.linkedin.com/in/dishant-kumar-vishwakarma-493529286/">[Link]</a> <br> Twitter: <a href="">[Link]</a> <br> Instagram: <a href="">[https://www.instagram.com/dishantkv981]</a>');
                     break;
                 case 'help':
                     showOutput('Available commands: <br> <div class="command">- about [Get to know Me] <br> - contact <br> - help <br> - clear <br> - time [Your current Clock] <br> - resume [download resume]</div><br> Use <span class="command2">Up Arrow</span> to go back to previous command, Use <span class="command2"><b>Tab</b></span> to autocomplete command.');
@@ -33,7 +33,7 @@ function handleInput(event) {
                 case 'resume':
                     showOutput('On our way to my resume...');
                     setTimeout(() => {
-                        window.location.href = 'https://docs.google.com/document/d/1PQ9-WGn1MHZccfs2nzxUARrOv1_SCTDCDZCg4wMqZrE/edit?usp=sharing'; // Replace with your encryption site URL
+                        window.location.href = 'https://drive.google.com/file/d/1Uie9vAxAMTFVYlTklXuwuK_gJ5aBd8SD/view?usp=sharing'; // Replace with your encryption site URL
                     }, 2000); // Adjust the delay time as needed (2000 milliseconds = 2 seconds)
                     break;
             }
