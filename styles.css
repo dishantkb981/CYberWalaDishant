@@ -98,10 +98,7 @@ body.theme-dark {
 
 /* High-resolution ASCII art with glowing RGB effect */
 .ascii-art {
-    font-family: 'Courier New', monospace;
     color: #00ff00;
-    white-space: pre;
-    animation: asciiAnimation 3s infinite, glow 1.5s alternate infinite;
     font-size: 1.2em; /* Increase size for higher resolution */
     line-height: 1.2; /* Adjust line height for better clarity */
 }
@@ -144,4 +141,32 @@ input::after {
     25% { transform: translateX(2px); }
     50% { transform: translateX(-2px); }
     75% { transform: translateX(1px); }
+}
+
+/* Media queries for mobile responsiveness */
+@media (max-width: 600px) {
+    body {
+        margin-top: 20px; /* Reduce top margin */
+    }
+
+    #terminal {
+        padding-left: 5px; /* Reduce padding for mobile */
+    }
+
+    label {
+        font-size: 14px; /* Smaller label font */
+    }
+
+    input {
+        font-size: 16px; /* Larger input font for readability */
+        padding: 5px; /* Add padding for better usability */
+    }
+
+    .ascii-art {
+        font-size: 1em; /* Decrease font size for smaller screens */
+    }
+
+    .command, .command2 {
+        font-size: 14px; /* Smaller command font */
+    }
 }
