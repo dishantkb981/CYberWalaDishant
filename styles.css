@@ -8,17 +8,27 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
+/* Container styling */
+.container {
+    width: 100%;
+    padding: 0 20px; /* Add padding for better layout on mobile */
+}
+
 /* Terminal container */
 #terminal {
-    width: 95%;
+    width: 100%;
     padding-left: 10px;
 }
 
-/* Gradient effect for text */
-pre {
-    background: -webkit-linear-gradient(#70ff45, #001aff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+/* ASCII art styling */
+.ascii-art {
+    font-family: 'Courier New', monospace;
+    color: rgb(76, 0, 255);
+    white-space: pre;
+    animation: asciiAnimation 3s infinite, glow 2s infinite alternate;
+    text-shadow: 0 0 5px #4c00ffdd, 0 0 10px #00ff00, 0 0 15px #00ff00;
+    font-size: 0.8em; /* Smaller font size for better fit */
+    line-height: 1.2; /* Adjust line height for better clarity */
 }
 
 /* Output area */
@@ -43,28 +53,6 @@ input {
     caret-color: rgb(53, 255, 12);
 }
 
-/* About section styling */
-.about {
-    border-style: ridge;
-    border-color: rgb(153, 255, 0);
-    border-width: thin;
-    margin-top: 5px;
-    padding: 5px;
-}
-
-/* Link styling */
-a {
-    text-decoration: none;
-    color: #eeff00;
-    font-weight: 800;
-}
-
-/* Dark theme with black and brown background mix */
-body.theme-dark {
-    background: linear-gradient(135deg, #000000f8 40%, #1c0c02 100%);
-    color: #ffffff;
-}
-
 /* Command text animations */
 .command {
     color: rgb(153, 255, 0);
@@ -77,6 +65,12 @@ body.theme-dark {
     -webkit-animation: Color 4s ease-in-out infinite;
 }
 
+/* Dark theme with black and brown background mix */
+body.theme-dark {
+    background: linear-gradient(135deg, #000000f8 40%, #1c0c02 100%);
+    color: #ffffff;
+}
+
 /* Color animation keyframes */
 @keyframes Color {
     0% { color: #A0D468; }
@@ -85,29 +79,6 @@ body.theme-dark {
     60% { color: #FC6E51; }
     80% { color: #ED5565; }
     100% { color: #AC92EC; }
-}
-
-/* ASCII art styling with glowing effect */
-.ascii-art {
-    font-family: 'Courier New', monospace;
-    color: rgb(76, 0, 255);
-    white-space: pre;
-    animation: asciiAnimation 3s infinite, glow 2s infinite alternate;
-    text-shadow: 0 0 5px #4c00ffdd, 0 0 10px #00ff00, 0 0 15px #00ff00;
-}
-
-/* High-resolution ASCII art with glowing RGB effect */
-.ascii-art {
-    color: #00ff00;
-    font-size: 1.2em; /* Increase size for higher resolution */
-    line-height: 1.2; /* Adjust line height for better clarity */
-}
-
-/* ASCII art animation */
-@keyframes asciiAnimation {
-    0% { transform: translateX(0); }
-    50% { transform: translateX(10px); }
-    100% { transform: translateX(0); }
 }
 
 /* Glowing effect animation */
@@ -163,7 +134,7 @@ input::after {
     }
 
     .ascii-art {
-        font-size: 1em; /* Decrease font size for smaller screens */
+        font-size: 0.6em; /* Decrease font size further for smaller screens */
     }
 
     .command, .command2 {
