@@ -65,9 +65,9 @@ input {
     -webkit-animation: Color 4s ease-in-out infinite;
 }
 
-/* Dark theme with black and brown background mix */
+/* Dark theme with solid black background */
 body.theme-dark {
-    background: linear-gradient(135deg, #000000f8 40%, #1c0c02 100%);
+    background: black; /* Set to solid black */
     color: #ffffff;
 }
 
