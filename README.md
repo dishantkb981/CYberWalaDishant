@@ -30,3 +30,19 @@ Here are some of my featured repositories:
 > Guidelines for static analysis
 
 > Example vulnerable applications for practice
+
+**About The Portfolio(Website)**🕸️
+
+My portfolio based on terminal like here you can get all the things which you need==>
+
+**It Include Commands Like**
+
+> About(Damnmm its about me you know me already)
+
+> Time(hehe you can check your time if you dont have watch JK(JustKiddingggggggggg)
+ 
+> Certifications(All the certifications which i did you can check using this command )'
+ 
+> Resume(Its all about my all the data it include summary and certifications all the things )
+ 
+> Events(Which I have Attended the events)
