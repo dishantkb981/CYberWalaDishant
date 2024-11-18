@@ -5,7 +5,7 @@
 **🚀 My Portfolio**
 Explore my work and projects via:
 
->  [CyberWala Portfolio Website](https://dishantkb981.github.io/CYberwalaDishant/) – View a detailed overview of my skills, certifications, and projects.
+>  [CyberWala Portfolio Website](https://dishantkb981.github.io/CYberWalaDishant/) – View a detailed overview of my skills, certifications, and projects.
 
 >  Terminal-Based Portfolio – Run the following command in your terminal for a unique experience:
 
