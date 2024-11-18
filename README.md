@@ -12,7 +12,7 @@ Explore my work and projects via:
 **🛠️ Key Skills and Expertise**
 > Penetration Testing: iOS App Pen Testing, Dynamic Analysis, and Runtime Analysis
 
-> Certifications: eMAPT, eJPTv2, PJMT, CAP AppSec
+> Certifications: CMPen Android, eJPTv2, CAP AppSec CAPT(Android Hacking Lab)
 
 > Tools: Burp Suite, OWASP ZAP, MobSF, Wireshark, Metasploit
 >
