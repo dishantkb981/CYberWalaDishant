@@ -39,7 +39,7 @@ function handleInput(event) {
                     }, 2000);
                     break;
                     case 'certifications':
-                        showOutput('<div style="color: rgb(255, 255, 255); text-shadow: 0 0 5px rgb(255, 0, 0), 0 0 10px rgb(255, 0, 0), 0 0 15px rgb(255, 0, 0);">Certifications:<br> - <span style="color: rgb(0, 255, 0);">eMAPT</span> (eLearnSecurity Mobile Application Penetration Tester)<br> - <span style="color: rgb(0, 0, 255);">eJPTv2</span> (eLearnSecurity Junior Penetration Tester)<br> - <span style="color: rgb(255, 255, 0);">PJMT</span> (Practical Junior Mobile Tester)<br> - <span style="color: rgb(0, 255, 255);">CAP</span> (Certified Application Security Professional)<br> - <span style="color: rgb(255, 0, 255);">CAPT</span> (Certified Android Penetration Tester)</div>');
+                        showOutput('<div style="color: rgb(255, 255, 255); text-shadow: 0 0 5px rgb(255, 0, 0), 0 0 10px rgb(255, 0, 0), 0 0 15px rgb(255, 0, 0);">Certifications:<br> - <span style="color: rgb(0, 255, 0);">CMPenAndroid</span> ( Mobile Application Penetration Tester)<br> - <span style="color: rgb(0, 0, 255);">eJPTv2</span> (eLearnSecurity Junior Penetration Tester)<br> - <span style="color: rgb(255, 255, 0);">PJMT</span> (Practical Junior Mobile Tester)<br> - <span style="color: rgb(0, 255, 255);">CAP</span> (Certified Application Security Professional)<br> - <span style="color: rgb(255, 0, 255);">CAPT</span> (Certified Android Penetration Tester)</div>');
                         break;
                     
 
