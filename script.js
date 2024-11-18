@@ -35,7 +35,7 @@ function handleInput(event) {
                 case 'resume':
                     showOutput('Redirecting to my resume...');
                     setTimeout(() => {
-                        window.location.href = 'https://drive.google.com/file/d/1mgnROC3xnyNSklCIe69rvTNbyiB6sHNI/view?usp=drive_link';
+                        window.location.href = 'https://drive.google.com/file/d/1ztlMCedfjMedQgRsgwyHW65UN2C0Hmev/view?usp=drive_link';
                     }, 2000);
                     break;
                     case 'certifications':
